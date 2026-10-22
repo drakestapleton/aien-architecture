@@ -1,0 +1,29 @@
+TEACHING REPLAY 2026-10-22 UTC
+repository: drakestapleton/aien-architecture
+base_sha: b1d5fa3c20de8db277890d16d37b14c391196630
+source_sha: 584db13135f4d4891d86c548cfe5e184af8e7044
+environment: macOS-26.6.2-arm64-arm-64bit-Mach-O; python 3.14.6
+tool_versions:
+git --version: git version 2.55.0
+node --version: v22.18.0
+jq --version: jq-1.7.1-apple
+openssl version: OpenSSL 3.6.3 9 Jun 2026 (Library: OpenSSL 3.6.3 9 Jun 2026)
+cargo --version: cargo 1.97.1 (c980f4866 2026-06-30)
+qualification: dated decision/status check PASS; runtime enforcement unverified
+checkout: fresh git clone --no-hardlinks --branch docs/teaching-20261022 from dedicated cohort clone
+command (from docs/TEACHING.md):
+python3 - <<'PYEX'
+from pathlib import Path
+a=Path('docs/adr/0007-jspace-effect-boundary.md').read_text()
+b=Path('docs/02-implementation-status.md').read_text()
+assert 'EffectIntents' in a and '2026-09-23' in b
+assert 'Effect Broker | 🟡' in b and 'J-Space | ⬜' in b
+print('DECISION PRESENT; IMPLEMENTATION PARTIAL OR TARGET')
+PYEX
+
+stdout:
+DECISION PRESENT; IMPLEMENTATION PARTIAL OR TARGET
+
+stderr:
+
+exit: 0
