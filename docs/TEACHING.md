@@ -20,3 +20,8 @@ PYEX
 ```
 
 Expected that line, exit 0. This checks the historical decision/status record, not effect enforcement. The negative case is assuming an architecture diagram proves a live denial; no runtime exists in this repository to test that. [Replay receipt](teaching-replay-2026-10-22.txt).
+
+
+### Parent fresh-checkout replay
+
+A separate coordination replay is retained in [the parent receipt](parent-replay-2026-10-22.txt). Its scope and observed exit are explicit; source review and final desk qualification remain separate. A recorded absence or expected failing baseline is not a passing implementation.
