@@ -8,7 +8,7 @@
 
 I trace one actual source or design boundary in [the worked lesson](docs/TEACHING.md), with a pinned fresh-checkout exercise and [raw replay receipt](docs/teaching-replay-2026-10-22.txt). The lesson states what remains unimplemented or unverified at this revision.
 
-Dated personal architecture snapshot of flows, boundaries, decisions, research notes and roadmap. For current cross-project navigation, use [aien-dev/aien-architecture-mv](https://github.com/aien-dev/aien-architecture-mv) and [aienix](https://github.com/aien-dev/aienix).
+Dated personal architecture snapshot of flows, boundaries, decisions, research notes and roadmap. For current cross-project navigation, use [aien-dev/aien-architecture-mv](https://github.com/aien-dev/aien-architecture-mv) and [AienOS](https://github.com/aien-dev/aienix).
 
 This repository is intentionally **documentation-first**. It does not replace the implementation repositories. It defines how the pieces are intended to compose and gives implementation agents one place to answer:
 
